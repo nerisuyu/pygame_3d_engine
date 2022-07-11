@@ -1,0 +1,29 @@
+lerp color of mesh based on normal
+alpha channel for bg graphics
+
+lerp 3d animation poses
+
+
+buffer 1: vertecies ObjSpace
+x y z d
+
+buffer 2: vertecies ScreenSpace
+x y z d
+
+buffer 3:verts to matrix
+0 0 0 0 1 1 1 1 3 3 3 3 (*16)
+or
+1 2 3 (*16)
+
+buffer 4: matrices
+1 ... 16
+
+buffer 5: tris
+isdrawn isBackfaceCulling invertednormals v1 v2 v3 color(if None then uv, or combine with uv) uvmap uv1 uv2 uv3 lightning lightningaffection
+
+
+
+scene layers and different renderers
+
+particles???
+pallete dithering??
